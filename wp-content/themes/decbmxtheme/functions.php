@@ -20,3 +20,9 @@ function wp_theme_js() {
 
 add_action( 'wp_enqueue_scripts', 'wp_theme_js' );
 
+
+
+register_nav_menu( $location, $description ); ?>
+
+
+
